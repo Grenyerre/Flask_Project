@@ -23,6 +23,11 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/careers")
+def careers():
+    return render_template("careers.html")
+
+
 
 
 if __name__ == "__main__": # __main__ is the name of the default module in Python
